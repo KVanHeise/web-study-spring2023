@@ -41,4 +41,14 @@ h2{
 .component{
     border:5px solid var(--tertiary-text);
     margin:10px;
+    padding: 0 10px;
+}
+
+.component__name{
+    padding-bottom:10px;
+    border-bottom:2px solid var(--tertiary-text);
+}
+
+.component__code{
+    border-top:2px solid var(--tertiary-text);
 }
