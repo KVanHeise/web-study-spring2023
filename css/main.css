@@ -13,12 +13,17 @@
 html {
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
+    color:var(--primary-text);
 }
   
 *,
 *:before,
 *:after {
     box-sizing: inherit;
+}
+
+body{
+    padding: 0 20px;
 }
 
 img{
@@ -30,6 +35,12 @@ font-family: 'proxima-nova', sans-serif;
     font-style: normal;
     font-weight: 400;
     color:var(--secondary-text);
+}
+
+h1{
+    font-size:3rem;
+    font-style: normal;
+    font-weight: 900;
 }
 
 h2{
