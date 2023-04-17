@@ -1,0 +1,39 @@
+:root {
+    --primary: #e10085;
+    --primary-text: #1e1512;
+    --secondary: #702c91;
+    --secondary-text: #625b65;
+    --blue: #0b7bb8;
+    --green: #00853c;
+    --red: #da1c17;
+    --yellow: #ffab00;
+    --tertiary-text: #a5a1a7;
+  }
+  
+html {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+  
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img{
+max-width: 100%;
+}
+
+p{
+font-family: 'proxima-nova', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color:var(--secondary-text);
+}
+
+h2{
+    font-size:2.75rem;
+    font-style: normal;
+    font-weight: 900;
+}
