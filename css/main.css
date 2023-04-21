@@ -24,6 +24,9 @@ html {
 
 body{
     padding: 0 20px;
+    max-width: 1200px;
+    min-width: 750px;
+    margin:auto;
 }
 
 img{
@@ -63,3 +66,45 @@ h2{
 .component__code{
     border-top:2px solid var(--tertiary-text);
 }
+
+
+/**
+*Header
+**/
+
+.site-name{
+    display:block;
+}
+
+.navbar{
+    background-color: var(--gray-light);
+    padding: 0 0.5rem 5rem;
+  }
+  
+nav{
+    max-width:100%;
+    margin:0 auto;
+    padding:0 1rem 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-top:2px solid var(--tertiary-text);
+    border-bottom:2px solid var(--tertiary-text);
+  }
+  
+  .nav-list{
+    padding:0;
+    margin:0;
+    display: flex;
+  }
+  
+  .nav-list__item{
+    flex: 0 1 auto;
+    margin:0;
+    list-style: none;
+    padding: 0.5rem;
+  }
+
+  a{
+    text-decoration: none;
+  }
