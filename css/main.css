@@ -8,6 +8,7 @@
     --red: #da1c17;
     --yellow: #ffab00;
     --tertiary-text: #a5a1a7;
+    --light-grey: #f5f5f5;
   }
   
 html {
@@ -216,6 +217,11 @@ nav{
 * Hero Aside
 **/
 
+.hero-aside{
+    width:360px;
+    float:right;
+}
+
 .profile-card{
     display:grid;
     grid-template-columns: 80px auto;
@@ -225,4 +231,22 @@ nav{
 .profile-card__info p{
     margin:0;
     line-height: 1.5rem;
+}
+
+.side__twitter-link{
+    background-color: var(--secondary);
+    padding:10px;
+    font-size:1.25rem;
+}
+
+.side__twitter-link a{
+    color:white;
+    text-decoration: none;
+}
+
+.aside__greeting{
+    box-sizing: border-box;
+    background: var(--light-grey);
+    font-size:1.9rem;
+    padding:10px;
 }
