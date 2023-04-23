@@ -67,6 +67,12 @@ h2{
     border-top:2px solid var(--tertiary-text);
 }
 
+.line{
+    border-bottom: 4px solid var(--tertiary-text);
+    width: 30px;
+    margin: 20px 0;
+  }
+
 
 /**
 *Header
@@ -137,3 +143,33 @@ nav{
 *Hero
 **/
 
+.hero-header{
+    max-width: 60%;
+}
+
+.hero-header__title{
+    font-size:2.2em;
+}
+
+.game-buttons{
+    display: inline-block;
+    margin-right:3px;
+    color:white;
+    background-color: var(--primary);
+    text-transform: uppercase;
+    border-radius:5px;
+    padding:5px 15px;
+    font-size:.8rem;
+}
+
+.game-buttons__alt{
+    color:var(--primary);
+    background-color: white;
+    border:1px solid var(--primary);
+}
+
+.button-group__hero{
+    float:right;
+    display: flex;
+    flex: 0 1 auto;
+}
