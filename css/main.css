@@ -115,3 +115,20 @@ nav{
     background-color:rgba(255,255,255);
     color:var(--primary);
   }
+
+  button:hover{
+    cursor: pointer;
+  }
+
+.username{
+    color:var(--secondary-text);
+  }
+
+  .messages{
+    color:var(--secondary-text);
+  }
+
+.home-button{
+    display: block;
+    padding-top:2px;
+}
