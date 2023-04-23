@@ -215,3 +215,14 @@ nav{
 /**
 * Hero Aside
 **/
+
+.profile-card{
+    display:grid;
+    grid-template-columns: 80px auto;
+    gap:15px;
+}
+
+.profile-card__info p{
+    margin:0;
+    line-height: 1.5rem;
+}
