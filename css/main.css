@@ -312,3 +312,24 @@ nav{
     border-bottom: 4px solid var(--tertiary-text);
     margin: 20px 0;
   }
+
+  footer{
+    padding:10px;
+  }
+
+  .footer-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+
+  footer ul{
+    display:flex;
+    margin:0;
+    list-style: none;
+  }
+
+  footer ul li{
+    flex: 0 1 auto;
+    padding: 0.5rem;
+  }
