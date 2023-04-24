@@ -303,3 +303,12 @@ nav{
     padding:1rem;
     margin:1rem;
   }
+
+  /**
+  *Footer Styles
+  **/
+
+  .line__long{
+    border-bottom: 4px solid var(--tertiary-text);
+    margin: 20px 0;
+  }
