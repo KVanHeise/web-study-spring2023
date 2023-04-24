@@ -272,6 +272,12 @@ nav{
   }
 
   .price{
+    color: var(--primary-text);
+    font-weight: 900;
+    font-size: 1.25rem;
+  }
+
+  .price__sale{
     color: var(--green);
     font-weight: 900;
     font-size: 1.25rem;
