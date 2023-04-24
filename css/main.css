@@ -218,9 +218,7 @@ nav{
 **/
 
 .hero-aside{
-    width:360px;
-    float:right;
-}
+    width:360px;}
 
 .profile-card{
     display:grid;
@@ -254,3 +252,48 @@ nav{
 .username{
     font-weight:bold;
 }
+
+/**
+* Homepage Marketplace Sections
+**/
+
+  .marketplace-card{
+    background-color: var(--light-grey);
+    padding:0;
+  }
+
+  .marketplace-card__info{
+    padding: 0 1rem;
+  }
+
+  .adventure-title{
+    color:var(--secondary-text);
+    font-weight:bold;
+  }
+
+  .price{
+    color: var(--green);
+    font-weight: 900;
+    font-size: 1.25rem;
+  }
+
+  .marketplace-button{
+    text-align: right;
+    font-size:1rem;
+  }
+
+  .marketplace-button a{
+    color: var(--primary);
+  }
+
+  .marketplace{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+
+  .marketplace-container{
+    border-bottom: solid 1px var(--secondary-text);
+    padding:1rem;
+    margin:1rem;
+  }
