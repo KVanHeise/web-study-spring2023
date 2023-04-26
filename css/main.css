@@ -85,7 +85,7 @@ h2{
 
 .navbar{
     background-color: var(--gray-light);
-    padding: 0 0.5rem 2rem;
+    padding: 0 0.5rem;
   }
   
 nav{
@@ -149,6 +149,7 @@ nav{
   grid-template-columns: 750px 360px;
   gap:30px;
   padding:10px;
+  align-items:first baseline;
 }
 
 .hero-header{
@@ -156,7 +157,7 @@ nav{
 }
 
 .hero-header__title{
-    font-size:3em;
+    font-size:2.5em;
 }
 
 .game-buttons{
@@ -187,7 +188,7 @@ nav{
 **/
 
 .hero-main{
-    padding-top:2rem;
+    padding-top:1rem;
 }
 
 .card-grid{
@@ -225,7 +226,8 @@ nav{
 **/
 
 .hero-aside{
-    width:360px;}
+    width:360px;
+  }
 
 .profile-card{
     display:grid;
