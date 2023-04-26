@@ -85,7 +85,7 @@ h2{
 
 .navbar{
     background-color: var(--gray-light);
-    padding: 0 0.5rem 5rem;
+    padding: 0 0.5rem 2rem;
   }
   
 nav{
@@ -146,12 +146,13 @@ nav{
 
 .hero-container{
   display: grid;
-  grid-template-columns: 800px 360px;
-  gap:50px;
+  grid-template-columns: 750px 360px;
+  gap:30px;
+  padding:10px;
 }
 
 .hero-header{
-    max-width: 840px;
+    max-width: 750px;
 }
 
 .hero-header__title{
