@@ -144,12 +144,18 @@ nav{
 *Hero
 **/
 
+.hero-container{
+  display: grid;
+  grid-template-columns: 800px 360px;
+  gap:50px;
+}
+
 .hero-header{
-    max-width: 60%;
+    max-width: 840px;
 }
 
 .hero-header__title{
-    font-size:2.2em;
+    font-size:3em;
 }
 
 .game-buttons{
