@@ -144,9 +144,14 @@ nav{
 *Dropdown Menus
 **/
 
+.dropdown_screenshot{
+  padding-bottom:20px;
+}
+
 .dropdown {
   float: left;
   overflow: hidden;
+  line-height: 0.5rem;
 }
 
 .dropdown .dropbtn {
@@ -154,7 +159,6 @@ nav{
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -171,7 +175,7 @@ nav{
 
 .dropdown-content a {
   float: none;
-  color: var(--primary-text)
+  color: var(--primary-text);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -183,9 +187,45 @@ nav{
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: flex;
+  align-items: flex-start;
+  justify-content:space-between;
 }
 
+.dropdown ul{
+  list-style: none;
+  margin:0;
+  padding:10px 0 0 0;
+}
+
+.dropdown li{
+  margin:0;
+  padding:0;
+  font-family: 'proxima-nova', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size:1.1rem;
+    color:var(--secondary-text);
+}
+
+.dropdown-card{
+  border-left:1px solid var(--tertiary-text);
+  padding:10px;
+}
+
+.dropdown-card a{
+  font-family: 'proxima-nova', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color:var(--secondary-text);
+  padding:0;
+  margin:0;
+}
+
+.dropdown a:hover{
+  text-decoration: underline;
+  color:var(--primary);
+}
 
 /**
 *Hero
