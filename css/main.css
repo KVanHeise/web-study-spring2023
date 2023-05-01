@@ -164,6 +164,11 @@ nav{
     border:1px solid var(--primary);
 }
 
+.game-buttons__alt:hover{
+  color:white;
+  background-color: var(--primary);
+}
+
 .button-group__hero{
     float:right;
     display: flex;
