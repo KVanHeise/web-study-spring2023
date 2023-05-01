@@ -139,6 +139,11 @@ nav{
   border-bottom: solid 1px var(--secondary-text);
 }
 
+.hero-container a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .hero-header{
     max-width: 750px;
 }
